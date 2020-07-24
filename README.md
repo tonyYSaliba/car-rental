@@ -122,13 +122,13 @@ npm start
 
 ## Screenshot
 
-![Login Screenshot](./img/screenshot4.jpg)
-
 ![Browse Screenshot](./img/screenshot2.jpg)
 
-![Configurator Screenshot](./img/screenshot.jpg)
+![Login Screenshot](./img/screenshot3.jpg)
 
-![Rentals Screenshot](./img/screenshot3.jpg)
+![Rentals Screenshot](./img/screenshot4.jpg)
+
+![Configurator Screenshot](./img/screenshot.jpg)
 
 ![payment Screenshot](./img/screenshot5.jpg)
 
