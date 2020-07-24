@@ -120,7 +120,7 @@ npm start
 - `RentalForm` (in `RentalForm.js`): Used for filling the credit card information
 - `Filters` (in `Filters.js`): contains different kind of parameters. Filters could be rental parameters, browse parameters or configurator parameters
 
-## Screenshot
+## Screenshots
 
 ![Browse Screenshot](./img/screenshot2.jpg)
 
