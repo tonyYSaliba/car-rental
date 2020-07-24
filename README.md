@@ -1,5 +1,58 @@
-# Exam #1: "Car Rental"
-## Student: s275112 SALIBA TONI 
+# Car Rental
+
+## Introduction
+
+This is a web application project for managing a car rental company.
+
+The company owns a set of vehicles. Vehicles are divided into 5 categories (A…E), according to their size.
+
+Each car is also characterized by a brand (e.g., Audi, Ford, Fiat, Mercedes, …) and a model (i.e., a string).
+
+Unauthenticated users may browse a list containing the full set of vehicles, and the list may be filtered
+by category and/or brand (the user may simultaneously select one or more categories and one or more
+brands). The list of vehicles updates in real time as soon as the filters are modified.
+
+Once authenticated, users have access to an interactive configuration page, that replaces the original
+browsing page. In the configurator, they can set the parameters for their new rental. Rental parameters
+are: starting day, end day, car category, driver’s age, number of extra drivers, estimated number of
+kilometers per day, extra insurance (yes/no).
+
+For each combination, if all parameters are correctly specified, the page should interactively show the
+number of available cars (matching all criteria), and the rental price for that solution. The number of
+available cars must count how many cars in the right category are available in all the days of the rental.
+
+The rental price is computed by considering different factors, that are also
+affected by the number of available vehicles (when fewer vehicles would remain, the price grows
+higher). Also, after 3 successful finished rentals, the customer gains a 10% discount over all his/her new
+rentals.
+
+If the user accepts the proposal in the interactive configurator (the specific car is selected by the system), he/she must pay immediately, as soon as he/she confirms the
+reservation.
+
+Authenticated users, in addition, in a dedicated page may check the list of their future reservations (and
+possibly cancel them) and check the history of their current or past rentals.
+
+## Installation Instructions
+to clone the repository and install all required modules
+``` 
+git clone git@github.com:tonyYSaliba/car-rental.git
+cd car-rental
+
+```
+
+To run the server on Node.Js
+```
+cd server
+nodemon server.js
+
+```
+
+To run the React application
+```
+cd client
+npm start
+
+```
 
 ## React client application routes
 
@@ -69,7 +122,15 @@
 
 ## Screenshot
 
+![Login Screenshot](./img/screenshot4.jpg)
+
+![Browse Screenshot](./img/screenshot2.jpg)
+
 ![Configurator Screenshot](./img/screenshot.jpg)
+
+![Rentals Screenshot](./img/screenshot3.jpg)
+
+![payment Screenshot](./img/screenshot5.jpg)
 
 ## Test users
 
